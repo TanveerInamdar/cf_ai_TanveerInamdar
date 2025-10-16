@@ -1,0 +1,11 @@
+name = "cf_ai_bug_sherlock"
+main = "src/worker.js"
+compatibility_date = "2025-10-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "BUG_MEMORY"
+id = "<YOUR_KV_NAMESPACE_ID>"
+preview_id = "<YOUR_KV_PREVIEW_ID>"
